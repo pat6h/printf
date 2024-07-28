@@ -51,6 +51,7 @@ void free_buffer(buffer_t *output)
  *
  * Return: A pointer to the initialized buffer_t.
  */
+
 buffer_t *init_buffer(void)
 {
 	buffer_t *output;
