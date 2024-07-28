@@ -67,7 +67,8 @@ unsigned int print_string_width(buffer_t *output,
  * @wid: A width modifier.
  *
  * Return: The number of bytes stored to the buffer.
- */
+*/
+
 unsigned int print_neg_width(buffer_t *output, unsigned int printed,
 		unsigned char flags, int wid)
 {
