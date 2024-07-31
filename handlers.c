@@ -54,7 +54,7 @@ unsigned char handle_flags(const char *flag, char *index)
  * @modifier: A pointer to a potential length modifier.
  * @index: An index counter for the original format string.
  *
- * Return: If a lenth modifier is matched - its corresponding value.
+ * Return: If a length modifier is matched - its corresponding value.
  *         Otherwise - 0.
  */
 unsigned char handle_length(const char *modifier, char *index)
